@@ -6,7 +6,7 @@ from textwrap import wrap
 import bitstruct as bs
 from pywinusb.hid import HidDevice
 
-LED_CONFIG_COUNT = 12
+LED_CONFIG_COUNT = 32
 LED_REPORT_ID = 0x59
 LED_REPORT_LEN = 129
 LED_SET_OP_CODE = bytes.fromhex("59a50a")
