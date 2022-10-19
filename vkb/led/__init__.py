@@ -35,7 +35,7 @@ class LEDConfig:
     Setting the LEDs consists of a possible 30 LED configs each of which is a 4 byte structure as follows:
 
     byte 0:  LED ID
-    bytes 2-4: a 24 bit color config as follows::
+    bytes 2-4: a 24 bit color config as follows:
 
         000 001 010 011 100 101 110 111
         clm lem  b2  g2  r2  b1  g1  r1
